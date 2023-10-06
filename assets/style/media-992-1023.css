@@ -1,0 +1,586 @@
+@media (max-width: 1023px) and (min-width: 992px) {
+  .wrapper {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .side-buttons {
+    z-index: 10;
+  }
+
+  .mobile-nav-wrapper {
+    display: none;
+  }
+
+  .desktop-nav-wrapper {
+    padding-top: 20px;
+    width: 92%;
+  }
+
+  /* ////////// right side nav ///////// */
+
+  .desktop .left-side-nav {
+    width: 25%;
+    height: 90px;
+  }
+
+  .desktop .cableco-logo h1 {
+    font-size: 30px;
+  }
+
+  .desktop .cableco-secondary-nav {
+    height: 14px;
+  }
+
+  .desktop .cableco-secondary-nav ul li {
+    font-size: 10px;
+    padding: 4px;
+    border: 1px solid transparent;
+  }
+
+  .desktop .cableco-secondary-nav ul li:nth-child(1):hover {
+    border-top: 1px solid #f5a623;
+    border-bottom: 1px solid #f5a623;
+  }
+
+  .desktop .cableco-secondary-nav ul li:nth-child(2):hover {
+    border-top: 1px solid #31d6c4;
+    border-bottom: 1px solid #31d6c4;
+  }
+  .desktop .cableco-secondary-nav ul li:nth-child(3):hover {
+    border-top: 1px solid #d10cf9;
+    border-bottom: 1px solid #d10cf9;
+  }
+
+  /* ////////// main nav/mid size ///////// */
+
+  .desktop .right-side-nav {
+    height: 100px;
+    width: 20%;
+    padding-top: 10px;
+  }
+
+  .desktop .main-nav {
+    width: 405px;
+    margin-left: 50px;
+  }
+
+  .desktop .main-nav ul li {
+    font-size: 10px;
+    padding: 7px 4px;
+    width: 20%;
+  }
+
+
+
+  .desktop .main-nav ul li:hover {
+    padding: 8px 5px;
+  }
+
+  .desktop .right-side-nav .company-view h3 {
+    font-size: 16px;
+  }
+
+  .desktop .right-side-nav .scte-logo {
+    width: 56%;
+  }
+
+  /* ///////////////////////////////// 
+    header graph styling 
+    /////////////////////////////////// */
+  .header-graph {
+    background: transparent;
+    margin-top: 35px;
+    align-items: stretch;
+    height: 205px;
+  }
+
+  /* ///////////////////////////////// 
+    header graph cards section
+    /////////////////////////////////// */
+
+  /* ////////////course performance style //////// */
+
+  .header-graph .header-grid {
+    height: 100%;
+    /* padding: 30px 0; */
+  }
+
+  .course-perf {
+    padding: 24px 0;
+  }
+
+  .certification-perf {
+    padding: 24px 0;
+  }
+
+  .completion-rate {
+    padding: 24px 0;
+  }
+
+  .pass-rate {
+    padding: 24px 0;
+  }
+
+  .fail-rate {
+    padding: 24px 0;
+  }
+
+  /* ///////////////////////////////// 
+    header graph Info styling
+    /////////////////////////////////// */
+
+  /* ////////////header graph info style //////// */
+
+  .top-dots-msg {
+    width: 91%;
+    padding: 12px 9px;
+
+  }
+
+  .top-dots-msg p {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .top-dots-msg .close-icon i {
+    font-size: 16px;
+  }
+
+  .graph-content {
+    width: 95%;
+  }
+
+  .top-dots span {
+    margin: -1px;
+    width: 6px;
+    height: 6px;
+  }
+
+  .top-dots .danger i {
+    font-size: 9px;
+  }
+
+  .graph-data {
+    margin-top: 10px;
+  }
+
+  .graph-data.company-avg-score {
+    margin-top: 42px;
+  }
+
+  .graph-data h4 {
+    font-size: 10px;
+    margin-top: 0;
+    width: 55%;
+  }
+
+  .graph-data h3.comparing {
+    font-size: 9px;
+  }
+
+  .graph-data .arrow-up {
+    width: 14px;
+  }
+
+  .graph-data h3 {
+    font-size: 16px;
+  }
+
+  .graph-data h3 span.bottom {
+    font-size: 16px;
+  }
+
+  .graph-data h3 span.big {
+    font-size: 26px;
+  }
+
+  .graph-data h3 span.up {
+    font-size: 16px;
+    bottom: 18px;
+  }
+
+  .graph-data h3 span.percent {
+    right: 12px;
+    position: relative;
+    font-size: 16px;
+    bottom: 18px;
+  }
+
+  /* ///////////////////////////////// 
+    header graph extension Info styling
+    /////////////////////////////////// */
+  .graph-extension {
+    top: 25%;
+  }
+
+  .graph-extension-heading {
+    padding: 4px;
+  }
+
+  .graph-extension-heading h4 {
+    font-size: 10px;
+    width: 55%;
+  }
+  .graph-extension-closeBtn i {
+    font-size: 10px;
+  }
+
+  /* ////////////////////////////
+    period-begins and ends styling 
+    //////////////////////////////*/
+
+  .period-begins-head,
+  .period-ends-head,
+  .top-performer-head,
+  .chart-view-head,
+  .customize-view-head {
+    padding: 5px;
+  }
+
+  .top-performer-head,
+  .chart-view-head,
+  .customize-view-head {
+    padding: 6px;
+  }
+
+  .period-begins-head p,
+  .period-ends-head p {
+    font-size: 10px;
+  }
+
+  .period-begins-head h3,
+  .period-ends-head h3 {
+    font-size: 18px;
+  }
+
+  .top-performer-head p,
+  .chart-view-head p,
+  .customize-view-head p {
+    font-size: 10px;
+  }
+
+  /* ///////////////////////////////// 
+    calender styling
+    /////////////////////////////////// */
+
+  .calendar-container {
+    padding: 0 4px;
+  }
+
+  .calendar {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .calendar-header {
+    padding: 5px;
+  }
+
+  .calendar-day-names {
+    padding: 5px 0;
+    margin-bottom: 5px;
+    gap: 9.5%;
+  }
+
+  .calendar-day-name {
+    width: 12px;
+  }
+
+  .calendar-day-numbers-row:first-child {
+    gap: 6.5%;
+  }
+
+  .calendar-day-number {
+    width: 14px;
+  }
+
+  .calendar-day-number--current {
+    box-shadow: 0 0 0 3px white;
+  }
+
+  /* ///////////////////////////////// 
+    Top Performer Section styling
+    /////////////////////////////////// */
+
+  .top-performer div.person {
+    padding: 5px;
+  }
+
+  .person-details p {
+    font-size: 8px;
+  }
+
+  .person-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .person-inner span {
+    height: 3px;
+    width: 3px;
+  }
+
+  /* ///////////////////////////////// 
+    All Top Performer Section styling
+    /////////////////////////////////// */
+
+  .all-top-performer-btn {
+    padding: 5px;
+    width: 80%;
+  }
+
+  .all-top-performer-btn p {
+    font-size: 8px;
+  }
+
+  .top-performer-btn-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  /* ///////////////////////////////// 
+    view chart Section styling
+    /////////////////////////////////// */
+  .chart-view-content .chart-content {
+    padding: 10px;
+  }
+
+  .chart-content .chart-start,
+  .chart-content .chart-end {
+    font-size: 16px;
+  }
+
+  /* ///////////////////////////////// 
+    body Section styling
+    /////////////////////////////////// */
+
+  .progress-container {
+    background: transparent;
+  }
+
+  .progress-content {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .progress-msg {
+    width: 50%;
+  }
+
+  /* ///////// round progress chart section styling//////////// */
+
+  .progress-chart-content {
+    width: 57%;
+    margin: 0 auto;
+    padding-left: 88px;
+  }
+
+  .progress-row-1,
+  .progress-row-2 {
+    height: 200px;
+  }
+
+  #chart2 {
+    width: 320px;
+    /* width: 37%; */
+  }
+
+  .progress-row-2 .chart3 {
+    height: 170px;
+    width: 170px;
+  }
+
+  .progress-bottom-msgs {
+    margin-top: 36px;
+    width: 400px;
+  }
+
+  /* ///////// line progress graph section styling//////////// */
+
+  .progress-graph-content {
+    height: fit-content;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 25px;
+    text-align: start;
+    background: url("/assets/imgs/lower-graph.jpg");
+    background-size: 114% 75%;
+    background-position: 0px 160%;
+    background-repeat: no-repeat;
+  }
+
+  .progress-graph-content .more-info-dots,
+  .progress-graph-content .progress-graph-head,
+  .progress-graph-content .progress-company-year{
+    padding: 0 30px;
+  }
+
+  .progress-graph{
+    height: 130px;
+  }
+
+  .progress-company-year ul {
+    width: 35%;
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  #container_svg {
+    left: 0;
+    top: 10px;
+  }
+
+  .graph-months ul {
+    width: 95%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ///////////////////////////////// 
+    company insight section styling
+    /////////////////////////////////// */
+
+  .company-competencies {
+    width: 94%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+
+  .competence .suggestion-msg{
+    top: -16px;
+  }
+
+  .company-insights-content{
+    width: 100%;
+  }
+
+  .suggestion-msg-body .suggestionBtns{
+    width: 62%
+  }
+
+  .suggestion-msg-body .suggestionBtns a{
+    padding: 11px 22px;
+    font-size: 16px;
+  }
+
+  .suggestions {
+    margin-right: 36px;
+  }
+
+  .suggestion-msg-head p{
+    font-size: 12px;
+    margin-right: 11.5px;
+  }
+
+  .company-insights {
+    width: 39%;
+    margin-top: 0px;
+  }
+
+  .company-insights h3 {
+    font-size: 30px;
+    margin-left: 15px;
+  }
+
+  .insights-right .msg,
+  .insights-left .msg {
+    width: 78%;
+    padding: 25px 30px;
+  }
+
+  .insights-left .msg{
+    width: 85%;
+  }
+
+  .insights-right .msg p,
+  .insights-left .msg p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .chat-img {
+    width: 67%;
+    margin-right: 63px;
+  }
+
+  /* ///////////////////////////////// 
+    company stats section styling
+    /////////////////////////////////// */
+
+  .company-stats {
+    bottom: 0;
+    width: 55%;
+  }
+
+  .add-more-menu {
+    width: 96%;
+    padding: 10px;
+  }
+
+  .company-stats-content .company-stats-head h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .competence-head {
+    font-size: 12px;
+  }
+
+  .competence-head > h4 {
+    font-size: 16px;
+  }
+
+  .competence-head span {
+    width: 5px;
+    height: 5px;
+  }
+
+  /* ///////////////////////////////// 
+    footer section styling
+    /////////////////////////////////// */
+
+  .footer-upper {
+    width: 100%;
+  }
+
+  .footer-navigation {
+    width: 70%;
+  }
+
+  .footer-navigation .account,
+  .footer-navigation .learning,
+  .footer-navigation .quicklinks,
+  .footer-navigation .support {
+    width: 20%;
+  }
+
+  /* ///////////////////////////////// 
+    footer company details styling
+    /////////////////////////////////// */
+
+  .footer-company-details {
+    margin-right: 58px;
+    width: 225px;
+  }
+
+  .footer-company-details span{
+    margin: 4px;
+  }
+
+  .contact-info {
+    width: 70%;
+  }
+
+  .contact-info span:nth-child(2) {
+    margin-left: 0;
+  }
+  .footer-logo {
+    margin-right: 58px;
+    width: 16%;
+  }
+}

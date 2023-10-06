@@ -1,0 +1,820 @@
+@media (max-width: 567px) and (min-width: 480px) {
+  .wrapper {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .side-buttons {
+    display: none;
+  }
+
+  /* desktop navigation main class styling */
+  .desktop-nav-wrapper {
+    display: none;
+  }
+
+  /* mobile navigation main class styling */
+  .mobile-nav-wrapper {
+    display: block;
+  }
+
+  .upper-mobile-nav {
+    padding: 9px 15px;
+    /* width: 100%; */
+    display: flex;
+    background: #39425a;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* left side navigation of mobile nav */
+  .left-side-nav {
+    width: 24%;
+  }
+
+  .mobile .left-side-nav h1 {
+    /* padding-top: 4px; */
+    font-size: 19px;
+    padding-right: 5px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+  }
+
+  .cableco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile .cableco-logo {
+    width: 26%;
+  }
+
+  .mobile .cableco-logo img {
+    width: 100%;
+  }
+
+  /* scte(mid side) navigation of mobile Nav */
+  .scte-nav {
+    margin-right: auto;
+    margin-left: 15px;
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .scte-logo {
+    width: 87%;
+  }
+
+  .scte-logo img {
+    width: 100%;
+  }
+
+  .drop-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11px;
+    height: 11px;
+    background: #4680d8;
+    font-size: 10px;
+    padding: 1px;
+  }
+
+  .drop-down-menu {
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    top: 44px;
+    right: -6px;
+    background: #39425a;
+    padding: 0 10px;
+    z-index: 80;
+    display: none;
+  }
+
+  .drop-down-menu h3 {
+    font-size: 18px;
+    color: #c8c9ce;
+    font-weight: lighter;
+    margin: 8px 0;
+  }
+
+  .drop-down-menu h3:nth-child(2) {
+    color: #e8a12b;
+    font-weight: 500;
+  }
+
+  /* hamburger navigation of mobile Nav */
+  .right-side-nav {
+    width: 10%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hamburger i {
+    font-size: 20px;
+  }
+
+  .hamburger-menu {
+    position: absolute;
+    /* text-align: right; */
+    top: 44px;
+    width: 240%;
+    padding: 0 10px;
+    background: #39425a;
+    z-index: 100;
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: all 0.3s;
+  }
+
+  .grid div {
+    overflow: hidden;
+  }
+
+  .hamburger-menu ul li {
+    list-style: none;
+    font-size: 14px;
+    margin: 12px 0;
+    font-weight: 300;
+    color: #b3a9a9;
+  }
+
+  /* lower navigation of mobile Nav */
+  .lower-mobile-nav {
+    padding: 20px 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lower-mobile-nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .lower-mobile-nav ul li {
+    width: 180px;
+    list-style: none;
+    border: 3px solid transparent;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4px 0;
+    font-size: 12px;
+  }
+
+  .lower-mobile-nav ul li:nth-child(1) {
+    width: 70px;
+    border-top: 3px solid #f5a623;
+    border-bottom: 3px solid #f5a623;
+  }
+
+  .lower-mobile-nav ul li:nth-child(2):hover {
+    border-top: 3px solid #31d6c4;
+    border-bottom: 3px solid #31d6c4;
+  }
+
+  .lower-mobile-nav ul li:nth-child(3):hover {
+    border-top: 3px solid #d10cf9;
+    border-bottom: 3px solid #d10cf9;
+  }
+
+  /* ///////////////////////////////// 
+          header graph styling 
+          /////////////////////////////////// */
+  .header-graph {
+    background: none;
+    align-items: flex-start;
+    height: fit-content;
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .top-dots-msg {
+    width: 70%;
+  }
+
+  /* ///////////////////////////////// 
+          header graph cards section 
+          /////////////////////////////////// */
+
+  .header-cards-head {
+    display: block;
+    width: 100%;
+    padding: 20px 10px;
+    margin: -1px 0;
+    box-sizing: border-box;
+  }
+
+  .header-cards-head > div {
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-cards-head h4 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .header-graph .header-grid {
+    grid-template-rows: 0fr;
+    width: 100%;
+    transition: all 1s;
+    /* padding: 10px 0; */
+  }
+
+  .header-grid .top-dots-msg {
+    width: 71%;
+  }
+
+  .course-perf,
+  .certification-perf,
+  .completion-rate,
+  .pass-rate,
+  .fail-rate {
+    margin: 0 auto;
+    width: 76%;
+    /* width: 100%; */
+    /* padding: 10px 0; */
+  }
+
+  .graph-extension {
+    position: relative;
+    top: 0;
+  }
+
+  .graph-content .top-dots {
+    margin-top: 7px;
+  }
+
+  .top-dots .danger .arrow {
+    display: block;
+  }
+
+  .top-dots .danger .danger-icon {
+    display: none;
+  }
+
+  .graph-extension .graph-extension-wrapper {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .graph-extension .graph-extension-heading {
+    display: none;
+  }
+
+  .graph-data h4 {
+    font-size: 20px;
+    opacity: 1;
+    font-weight: 300;
+  }
+
+  .graph-data {
+    margin-top: 0px;
+  }
+
+  .graph-data.comparing-div {
+    margin-top: 27px;
+    margin-bottom: 15px;
+  }
+
+  .graph-data h3 span.bottom {
+    font-size: 24px;
+  }
+
+  .graph-data h3 span.big {
+    font-size: 66px;
+  }
+
+  .graph-data h3 span.up {
+    font-size: 34px;
+    bottom: 32px;
+  }
+
+  .graph-data h3 span.percent {
+    right: 12px;
+    font-size: 34px;
+    bottom: 32px;
+  }
+
+  /* ///////////////////////////////// 
+calender styling
+/////////////////////////////////// */
+
+  .calendar-container {
+    padding: 0 12px;
+  }
+
+  .calendar {
+    /* font-size: 10px; */
+    padding: 40px;
+  }
+
+  .calendar-header {
+    padding: 0 5px 12px;
+  }
+
+  .calendar-day-names {
+    padding: 5px 0;
+    margin-bottom: 5px;
+    gap: 12.5%;
+  }
+
+  .calendar-day-name {
+    width: 12px;
+  }
+
+  .calendar-day-numbers-row:first-child {
+    gap: 12%;
+  }
+
+  .calendar-day-number {
+    width: 14px;
+  }
+
+  .calendar-day-number--current {
+    box-shadow: 0 0 0 3px white;
+  }
+
+  /* ////////////////////////////////
+      progress chart and graph section styling 
+      /////////////////////////////////// */
+
+  .progress-content {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .desktop.progress-chart-content {
+    display: none;
+  }
+
+  .progress-chart-content.mobile {
+    display: block;
+    height: 100%;
+    padding: 14px 0;
+    background: #39425a;
+    /* width: 95.5%; */
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .progress-container {
+    background: transparent;
+  }
+
+  .mySwiper {
+    padding: 0 14px;
+    width: 92.5%;
+    /* width: 100%; */
+    height: 300px;
+  }
+
+  .swiper-nav {
+    position: absolute;
+    right: 14px;
+    z-index: 10;
+  }
+
+  .swiper-nav div {
+    border: 1px solid white;
+    padding: 8px 10px;
+    margin: 0 3px;
+    display: inline-block;
+  }
+
+  .swiper-slide .more-info-dots {
+    width: 70%;
+  }
+
+  .swiper-content {
+    position: relative;
+    /* width: 100%; */
+    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .chart-content {
+    width: 88%;
+    height: 100%;
+  }
+
+  .chart-content .chart2 {
+    display: flex;
+    margin-top: -62px;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .legendsMobile {
+    position: relative;
+    height: fit-content;
+    top: 75px;
+    width: 26%;
+    /* right: 0; */
+  }
+
+  .legendsMobile ul li {
+    list-style: none;
+    font-size: 10px;
+  }
+
+  .legendsMobile ul li span {
+    background: white;
+    display: inline-block;
+    margin-right: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+
+  .legendsMobile .red {
+    background-color: #ff325e;
+  }
+  .legendsMobile .skyblue {
+    background-color: #7fc2f9;
+  }
+  .legendsMobile .purple {
+    background-color: #58368c;
+  }
+  .legendsMobile .cyan {
+    background-color: #079fce;
+  }
+  .legendsMobile .seagreen {
+    background-color: #4ee2c0;
+  }
+  .legendsMobile .pink {
+    background-color: #ef32ff;
+  }
+  .legendsMobile .yellow {
+    background-color: #dcb337;
+  }
+
+  #chart1-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 9;
+    bottom: 25px;
+  }
+
+  .center-counter.mobile {
+    width: 160px;
+    height: 160px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    border-color: #39425a;
+  }
+
+  #chart2-mobile {
+    position: relative;
+    width: 66%;
+  }
+
+  #chart2-mobile-wrapper {
+    /* margin-left: -50px; */
+    position: absolute;
+  }
+
+  .chart3Mobile {
+    margin: 0 auto;
+    background: linear-gradient(to top, #4b5771 0%, #252c3e 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    margin-top: 20px;
+    width: 170px;
+  }
+
+  .counter3Mobile {
+    padding: 10px;
+    text-align: center;
+    font-size: 92px;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #4b5771 0%, #252c3e 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  #chart4-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+  }
+
+  #chart4-mobile .counter4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 83%;
+    width: 175px;
+    color: #31d6c4;
+    top: 15.5%;
+    /* left: 55px; */
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%2331D6C4FF' stroke-width='25' stroke-dasharray='8' stroke-dashoffset='100' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 100px;
+    box-sizing: border-box;
+  }
+
+  /* ///////// line progress graph section styling//////////// */
+
+  .progress-graph-content {
+    width: 100%;
+    margin: 0 auto;
+    background: url("/assets/imgs/lower-graph.jpg");
+    /* display: none; */
+    background-size: 211% 240%;
+    background-position: 69% 0%;
+    height: 305px;
+    text-align: start;
+  }
+
+  .top-dots-msg {
+    width: 70%;
+  }
+
+  .progress-graph-content .progress-msg {
+    left: 0;
+    width: 96%;
+  }
+
+  .progress-graph-head div.mobile-arrow {
+    display: block;
+  }
+
+  .progress-graph-content .more-info-dots,
+  .progress-graph-content .progress-graph-head,
+  .progress-graph-content .progress-company-year {
+    padding: 0 17px;
+  }
+
+  .progress-company-year ul {
+    margin-right: auto;
+    margin-left: 0;
+    width: 62%;
+    font-size: 11px;
+  }
+
+  .graph-months ul {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .graph-months ul li {
+    font-size: 12px;
+  }
+
+  #container_svg {
+    left: 0;
+    top: 35px;
+  }
+
+  /* ///////////////////////////////// 
+              company stats section styling
+              /////////////////////////////////// */
+
+  .company-competencies {
+    /* display: none; */
+    flex-direction: column-reverse;
+    width: 95%;
+  }
+
+  .company-insight-wrapper {
+    margin-bottom: 140px;
+  }
+
+  .competence .suggestion-msg {
+    top: -13px;
+  }
+
+  .company-insights-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .suggestion-msg-body .suggestionBtns {
+    width: 280px;
+  }
+
+  .suggestion-msg-body .suggestionBtns a {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .suggestions {
+    margin-right: 0px;
+  }
+
+  .suggestion-msg-head p {
+    display: none;
+    font-size: 12px;
+    margin-right: 2.5px;
+  }
+
+  .suggestion-msg-head {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  .company-stats {
+    width: 100%;
+    bottom: 0;
+    margin: 25px 0;
+  }
+
+  .company-stats-head .down-icon {
+    display: block;
+  }
+
+  .company-stats-content .company-stats-head h3 {
+    margin-left: 0;
+    font-size: 22px;
+    margin-bottom: 0;
+    color: #727a8e;
+  }
+
+  .company-stats-content .add-more {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+
+  .competence-content {
+    margin-top: 32px;
+  }
+
+  .competence-content .grid div {
+    overflow: visible;
+  }
+
+  .competence-inner {
+    /* margin-top: 0; */
+    width: 99%;
+    margin: 0 auto;
+  }
+
+  .company-competence {
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+  }
+
+  .competence {
+    margin-top: 10px;
+  }
+
+  .competence-head > h4 {
+    font-size: 10px;
+  }
+
+  .competence-head p {
+    font-size: 10px;
+    margin-left: 6px;
+  }
+
+  .competence-head span {
+    display: none;
+    height: 6px;
+    width: 6px;
+    margin: 0 5px;
+  }
+
+  .add-more-menu {
+    width: 94%;
+  }
+
+  /* ///////////////////////////////// 
+          company insight section styling
+          /////////////////////////////////// */
+
+  .company-insights {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* margin: 30px 0; */
+  }
+
+  .company-insight-head .down-icon {
+    display: block;
+  }
+
+  .company-insights h3 {
+    font-size: 22px;
+    margin: 0;
+    color: #727a8e;
+  }
+
+  .insights-right .msg,
+  .insights-left .msg {
+    padding: 26px;
+    width: 90%;
+  }
+
+  .insights-right .msg p,
+  .insights-left .msg p {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .chat-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  /* ///////////////////////////////// 
+              footer section styling
+              /////////////////////////////////// */
+
+  .footer-navigation .account,
+  .footer-navigation .learning,
+  .footer-navigation .quicklinks {
+    display: none;
+  }
+
+  .footer-navigation {
+    width: 100%;
+  }
+
+  .footer-navigation .support {
+    margin: 0 auto;
+    width: 30%;
+  }
+
+  .footer-upper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-company-details {
+    width: 170px;
+    justify-content: space-between;
+    margin: 30px auto;
+  }
+
+  /* .footer-company-details span {
+    margin: 6px;
+  } */
+
+  .footer-lower {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    padding: 40px 0;
+  }
+
+  .footer-lower span {
+    padding: 2px 0;
+  }
+
+  .contact-info span {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-logo {
+    width: 30%;
+    margin-right: 0;
+  }
+}
